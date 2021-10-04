@@ -1,0 +1,36 @@
+.filter{
+margin-top: 10px;
+margin-bottom: 100px;
+margin-right: 10px;
+margin-left: 10px;
+border-style:hidden;
+box-shadow: 10px 10px 8px  rgb(199, 193, 193);
+background-color: snow;
+position: center;
+width: fit-content;
+
+}
+
+.categories{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:center ;
+    align-items: center;
+    width: fit-content;
+    
+
+}
+
+.tag{
+    border:red solid ;
+    border-radius: 20px;
+    margin: 5px  5px;
+    padding: 10px 10px;
+    background-color: rgb(226, 220, 220);
+
+}
+body{
+    background-color: rgb(226, 225, 225);
+}

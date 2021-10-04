@@ -1,0 +1,31 @@
+header{
+    background-color: cadetblue;
+    
+}
+
+h1{
+    margin-block-start: 0;
+    margin-block-end:0; 
+    margin-bottom: 30px;
+    padding: 25px;
+    color: ghostwhite;
+}
+
+body{
+    margin:0;
+    background-color: rgb(205, 240, 205);
+    
+}
+
+.containrt{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
+}
+
+div{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
