@@ -1,0 +1,58 @@
+.playlist{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+   
+    
+    
+    
+}
+
+.song{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-bottom:1px solid black;   
+}
+
+.track{
+    flex-grow:1;    
+}
+
+.duration{    
+    order:1;
+    padding-right: 2px;  
+    padding-top: 20px; 
+}
+
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order:-1;
+    padding-right: 4px;
+    margin-right: 8px;
+    border-style: none;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    background-color: tomato;
+    margin-top: 12px; 
+}
+
+body{
+    background-color: rgb(233, 229, 230);
+    font-family: arial;
+    margin:0;
+    padding:0 10px;
+}
+
+h2{  
+    border-bottom:1px solid black;
+    padding:20px 0;
+    margin-block-start: 0;
+    margin-block-end:0; 
+}
